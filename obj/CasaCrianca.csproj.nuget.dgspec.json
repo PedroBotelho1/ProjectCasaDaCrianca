@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitao\\source\\repos\\CasaCrianca\\CasaCrianca\\CasaCrianca.csproj": {}
+    "C:\\Users\\Pedro\\Desktop\\CasaDaCrianca\\CasaCrianca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitao\\source\\repos\\CasaCrianca\\CasaCrianca\\CasaCrianca.csproj": {
+    "C:\\Users\\Pedro\\Desktop\\CasaDaCrianca\\CasaCrianca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitao\\source\\repos\\CasaCrianca\\CasaCrianca\\CasaCrianca.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro\\Desktop\\CasaDaCrianca\\CasaCrianca.csproj",
         "projectName": "CasaCrianca",
-        "projectPath": "C:\\Users\\vitao\\source\\repos\\CasaCrianca\\CasaCrianca\\CasaCrianca.csproj",
-        "packagesPath": "C:\\Users\\vitao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitao\\source\\repos\\CasaCrianca\\CasaCrianca\\obj\\",
+        "projectPath": "C:\\Users\\Pedro\\Desktop\\CasaDaCrianca\\CasaCrianca.csproj",
+        "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro\\Desktop\\CasaDaCrianca\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vitao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +45,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
